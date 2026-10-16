@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Wider Gemini Interface + Wide Tables
 // @namespace    pk-userscripts-collection
-// @version      1.1
+// @version      1.2
 // @description  Expands the text input area, conversation, and tables in Gemini to maximum width.
 // @author       pKajan
 // @match        https://gemini.google.com/*
@@ -22,22 +22,25 @@
         .input-area-container,
         .message-content,
         div[class*="max-w-"] {
-            max-width: 95% !important;
+            max-width: 96% !important;
         }
 
         table-block,
         .table-block,
         .table-content,
-        .horizontal-scroll-wrapper,
         .table-block-component,
         response-element {
+            max-width: 100% !important;
+        }
+
+        .horizontal-scroll-wrapper {
             width: 100% !important;
             max-width: 100% !important;
+            overflow-x: auto !important;
         }
 
         table[data-path-to-node] {
             width: 100% !important;
-            display: table !important;
         }
     `;
 
