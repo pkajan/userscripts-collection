@@ -5,7 +5,7 @@
 // @description Sorts items on the Path of Exile shop page by price.
 // @author      pKajan
 // @match       https://pathofexile2.com/shop/*
-// @icon        https://www.google.com/s2/favicons?sz=64&domain=pathofexile.com
+// @icon        https://www.google.com/s2/favicons?sz=64&domain=pathofexile2.com
 // @grant       none
 // @downloadURL https://github.com/pkajan/userscripts-collection/raw/main/pathofexile2.com_shop.user.js
 // @updateURL   https://github.com/pkajan/userscripts-collection/raw/main/pathofexile2.com_shop.user.js

@@ -5,6 +5,7 @@
 // @description  Expands the text input area, conversation, and tables in Gemini to maximum width.
 // @author       pKajan
 // @match        https://gemini.google.com/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=https://gemini.google.com/
 // @grant        GM_addStyle
 // @run-at       document-start
 // @downloadURL  https://github.com/pkajan/userscripts-collection/raw/main/gemini.google.com_wider_chat.user.js
